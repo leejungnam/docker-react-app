@@ -13,7 +13,6 @@ script:
   - docker run -e CI=true jnlee1102/react-app npm run test -- --coverage
 
 #after_success:
-#  - echo "Test success"
 
 deploy:
   provider: elasticbeanstalk
